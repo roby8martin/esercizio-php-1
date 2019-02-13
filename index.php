@@ -16,9 +16,18 @@
   </head>
 
   <body>
-    <h1>Hello, world!</h1>
+ 		
+ 		<ul>
+  	<?php
+  		$a = ['item 1', 'item 2', 'item 3'];
 
-    
+  		for ($i=0; $i < count ($a) ; $i++) { 
+  	  	print '<li>'.$a [$i].'</li>';
+  	  }
+  	?>
+  	</ul>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
